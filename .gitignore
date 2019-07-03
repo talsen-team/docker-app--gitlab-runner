@@ -4,6 +4,9 @@
 !.vscode/tasks.json
 !bash-commands
 !bash-util
+!docker/
+!docker/server--gitlab-runner/
+!docker/server--gitlab-runner/default.docker
 !.gitignore
 !.gitmodules
 !LICENCE
