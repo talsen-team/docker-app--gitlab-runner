@@ -1,0 +1,13 @@
+version:                 '3'
+
+services:
+  server--gitlab-runner:
+    build:
+      context:           './../../docker/server--gitlab-runner'
+      dockerfile:        'default.docker'
+    container_name:      'server--gitlab-runner'
+    image:               'talsenteam/docker-gitlab-runner:v12.0.1'
+    restart:             'no'
+    volumes:
+      -                  '/var/run/docker.sock:/var/run/docker.sock'
+      -                  '${HOST_PATH_TO_VOLUMES_ROOT}/server--gitlab-runner/etc/gitlab-runner:/etc/gitlab-runner'

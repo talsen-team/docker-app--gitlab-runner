@@ -7,6 +7,9 @@
 !docker/
 !docker/server--gitlab-runner/
 !docker/server--gitlab-runner/default.docker
+!docker-compose/
+!docker-compose/server--gitlab-runner/
+!docker-compose/server--gitlab-runner/default.docker-compose
 !.gitignore
 !.gitmodules
 !LICENCE
