@@ -12,4 +12,5 @@
 !docker-compose/server--gitlab-runner/default.docker-compose
 !.gitignore
 !.gitmodules
+!host.env
 !LICENCE
