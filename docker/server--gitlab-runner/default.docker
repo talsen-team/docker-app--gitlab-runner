@@ -1,1 +1,1 @@
-FROM gitlab/gitlab-runner:v12.1.0
+FROM gitlab/gitlab-runner:v13.6.0

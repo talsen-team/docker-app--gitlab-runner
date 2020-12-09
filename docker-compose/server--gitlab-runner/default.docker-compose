@@ -6,7 +6,7 @@ services:
       context:           './../../docker/server--gitlab-runner'
       dockerfile:        'default.docker'
     container_name:      'server--gitlab-runner'
-    image:               'talsenteam/docker-gitlab-runner:v12.1.0'
+    image:               'talsenteam/docker-gitlab-runner:v13.6.0'
     restart:             'no'
     volumes:
       -                  '/var/run/docker.sock:/var/run/docker.sock'
